@@ -1,0 +1,9 @@
+/* first css file */
+/*selector{property: value;}*/
+body {
+	background-color: pink;
+}
+div{
+	background: orange;
+
+}
