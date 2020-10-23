@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	/* font-family: serif;
+	font-style: normal;
+	font-weight: 500; /*bold or download from google font*/
+	/* font-variant: small-caps;
+	font-size: 2.4vh;
+	line-height: 3.6vh; /* font size*1.5 */
+	font: normal small-caps 500 2.4vh/3.6vh serif; /* style variant weight size/height family*/
+
+}
+
+article {
+	background-color: black;
+	color: white;
+	margin: 5px 0;
+	padding: 10px 5px; /*上下 左右*/
+}
+
+h1{
+	font-size: 4.8vh;
+	color: yellow;
+	/* font-family: sans-serif; */
+	line-height: 7.2vh;
+
+}
+
+h2{
+	font-size: 3.6vh;
+	color: orange;
+	/* font-family: sans-serif; */
+	line-height: 5.4vh;
+	font-style: initial;
+}
+h1, h2{
+	font-family: sans-serif;
+}
+
+section{
+	margin: 3px;
+	
+}
