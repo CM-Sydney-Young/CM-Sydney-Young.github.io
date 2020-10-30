@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding-bottom: 0; /* tare */
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	overflow-x: hidden; /* 無橫向滾動軸*/
+	overflow-y: auto; 
+	font: 2.4vh/3.6vh;
+}
+
+article{
+	padding: 5px 10px;
+}
+
+section{
+	margin: 20px 0;
+}
+a{
+
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: sans-serif;
+}

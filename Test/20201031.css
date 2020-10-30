@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding-bottom: 0;
+	box-sizing: border-box;
+}
+
+body{
+	text-align: center; /*文字置中對齊*/
+}
+
+div{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: pink;
+	float: left;
+	shape-outside: circle();
+	padding: 20px;
+	border: 20px;
+	margin: 20px;
+}

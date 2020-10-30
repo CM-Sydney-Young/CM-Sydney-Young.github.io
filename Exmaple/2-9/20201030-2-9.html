@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+		<title> EX 2-8 </title>
+		<meta charset="UTF-8">
+		<!-- <link rel="stylesheet" href="20201030-2-8.css"/> -->
+	</head>
+	<body style="margin: 0; padding: 0;">
+		<div style="width: 50px; height: 50px; background-color: red; position: fixed; top: 50px; left: 100px"></div> <!-- fix 固定在那個位置 -->
+		<div style="width: 50px; height: 50px; background-color: yellow; position: static;"></div> <!-- static 預設的位置 不用設定top left right bottom-->
+		<div style="width: 100px; height: 100px; background-color: green; position: relative; left: 50px; top: -10px">
+			<div style="width: 50px; height: 50px; background-color: blue; position: absolute; top: 50px;"></div> <!--上一層 relative 下一層absolute才有參考的基準-->
+		</div> <!-- relative 相對原本的位置 -->
+		<div style="width: 50px; height: 50px; background-color: pink; position: absolute; top: 100px;"></div> <!-- absolute 根據body(上一層)的絕對位置--> 
+	</body>
+</html>

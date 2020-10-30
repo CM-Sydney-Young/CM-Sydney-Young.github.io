@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding-bottom: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	font:2.4vh/3.6vh serif;
+}
+
+div#container{
+	height: 100vh;
+	width: 70%;
+	margin-left: 30%;
+	background-color: grey;
+	padding: 5px 10px;
+}
+
+nav{
+	position: fixed; /* 排版不會有順序的問題*/
+	right: 70%;
+	padding: 5px 10px;
+	background-color: purple;
+	color: white;
+	font-family: sans-serif;
+}
