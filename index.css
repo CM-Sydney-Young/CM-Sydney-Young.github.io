@@ -2,6 +2,7 @@
 	margin: 0;
 	padding-bottom: 0;
 	box-sizing: border-box;
+	/*background-color: #222;*/
 }
 
 body{
@@ -33,17 +34,21 @@ ul {
   list-style-type: none;
 }
 
-img.home{
+img.hometop{
 	display: inline-block;
-	width: 30px;
-	height: 30px;
+	width: 35px;
+	height: 35px;
 }
 
-/*img.home-top{
-	display: none;
-	width: 30px;
-	height: 30px;
-}*/
+img.hometop:hover {
+	background-color: grey;
+	transition: translate(+50%);
+	padding:2px;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	transition: 0.2s;
+}
 
   
 li {
@@ -105,6 +110,5 @@ div:nth-of-type(3){
 	text-align: justify;
 	border-radius: 45px;
 	padding: 20px;
-	/*border:10px solid #98c2f5;*/
 }
 
