@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding-bottom: 0;
+	box-sizing: border-box;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+} /* 整個瀏覽器視窗內容*/
+
+body{
+	width: 100%; /* %根據上一層元素設定的百分比*/
+	height: 100%;
+	/* overflow-x: hidden;
+	overflow-y: auto; */
+	font:2.4vh/3.6vh serif;
+}
+
+div{
+	font-size: 2.4vh;
+	padding: 1vh 2vw;
+	height: 100px;
+}
+
+div.odd{
+	background-color: orange;
+
+}
+
+div.even{
+	background-color: blue
+}
