@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	width: 100vw;
+	height: 30px;
+	background-color: grey;
+	font-family: sans-serif;
+	padding: 0 10px;
+}
+
+nav > div{
+	display: inline-block; /*有長寬高設定 排版左右排*/
+	margin: 0 5px;
+	height: 30px;
+	padding: 0 3px; /*左右內縮3px 下一層的div屬於這個div的內容所以會內縮3px*/
+	background-color: red;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	vertical-align: text-top; /*把div移動到最上對齊*/
+}
+
+nav > div:hover {
+	cursor:pointer;
+	background-color: white;
+	color: red;
+}
+
+nav > div > div{
+	display: none;
+	margin: 0 -3px;
+	border:1px solid red;
+	background-color: white; /*不會主動繼承parent的BG*/
+	color: red;	
+}
+
+/*pure hovering effect*/
+/*nav > div:hover > div {
+	display:block;
+}*/
+

@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: red;
+}
+
+article {
+	display: flex;
+	height: 100%;
+	flex-direction: column; /*column row 會影響justify-content align-content設定*/
+	flex-wrap: wrap; /*nowrap不會自動換行*/ /*wrap會自動換行*/
+	justify-content: space-around; /*列排版*/
+	align-content: flex-start; /*行排版*/
+} 
+
+article > section{
+	padding: 5px;
+	width: 33%;
+	background-color: green;
+	color: white;
+	font-size: 2.4vh;
+}
+
+@media only screen and (min-width: 1200px){
+	article{
+		flex-direction: row;
+	}
+}

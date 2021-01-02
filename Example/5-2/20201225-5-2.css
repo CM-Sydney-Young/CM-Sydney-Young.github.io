@@ -1,0 +1,23 @@
+nav{
+	color: white;
+}
+
+nav#mobile{
+	display: block;
+	background-color: red;
+}
+
+nav#desktop{
+	display: none;
+	background-color: green;
+}
+
+@media only screen and (min-width: 1200px){
+	nav#mobile{
+		display: none;
+	}
+
+	nav#desktop{
+		display: block;
+	}
+}

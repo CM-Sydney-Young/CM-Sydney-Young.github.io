@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: red;
+}
+
+article {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	flex-wrap: wrap; /*nowrap不會自動換行*/ /*wrap會自動換行*/
+	justify-content: space-around;
+} 
+
+article > section{
+	padding: 5px;
+	height: 30%;
+	width: 100%;
+	background-color: green;
+	color: white;
+	font-size: 2.4vh;
+}
+
+@media only screen and (min-width: 1200px){
+	article{
+		flex-direction: row;/*justify-content column垂直排版 row水平排版*/
+	}
+
+	article > section {
+		height: 100%;
+		width: 30%;
+
+	}
+}

@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: red;
+}
+
+article {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	flex-wrap: wrap; /*nowrap不會自動換行*/ /*wrap會自動換行*/
+} 
+
+article > section{
+	margin: 0 2px;
+	padding: 5px;
+	width: 33%;
+	background-color: green;
+	color: white;
+	font-size: 2.4vh;
+	flex-grow: 1; /*剩下的空間均分*/
+}
+
+article > section:nth-of-type(odd){
+	flex-grow: 1;
+}
+
+article > section:nth-of-type(odd){
+	flex-grow: 2; /*felx-grow -> 1 的兩倍空間*/
+}
+
+@media only screen and (min-width: 1200px){
+	article{
+		flex-direction: row;
+	}
+}
