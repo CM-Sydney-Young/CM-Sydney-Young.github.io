@@ -1,0 +1,11 @@
+[Sat Jan 02 23:58:39.670322 2021] [mpm_winnt:notice] [pid 20024:tid 700] AH00455: Apache/2.4.41 (Win32) PHP/7.4.3 configured -- resuming normal operations
+[Sat Jan 02 23:58:39.671359 2021] [mpm_winnt:notice] [pid 20024:tid 700] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Sat Jan 02 23:58:39.671359 2021] [core:notice] [pid 20024:tid 700] AH00094: Command line: 'C:\\Data\\Master\\P1\\BilingualWD\\Github_Clone\\CM-Sydney-Young.github.io\\USBWebserver v8.6.5\\USBWebserver v8.6.5/apache2/bin/httpd_usbwv8.exe -d C:/Data/Master/P1/BilingualWD/Github_Clone/CM-Sydney-Young.github.io/USBWebserver v8.6.5/USBWebserver v8.6.5/apache2'
+[Sat Jan 02 23:58:39.682291 2021] [mpm_winnt:notice] [pid 20024:tid 700] AH00418: Parent: Created child process 34012
+[Sat Jan 02 23:58:40.876961 2021] [mpm_winnt:notice] [pid 34012:tid 692] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 02 23:59:38.697634 2021] [core:warn] [pid 25696:tid 652] AH00098: pid file C:/Data/Master/P1/BilingualWD/Github_Clone/CM-Sydney-Young.github.io/USBWebserver v8.6.5/USBWebserver v8.6.5/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jan 02 23:59:38.711597 2021] [mpm_winnt:notice] [pid 25696:tid 652] AH00455: Apache/2.4.41 (Win32) PHP/7.4.3 configured -- resuming normal operations
+[Sat Jan 02 23:59:38.711597 2021] [mpm_winnt:notice] [pid 25696:tid 652] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Sat Jan 02 23:59:38.711597 2021] [core:notice] [pid 25696:tid 652] AH00094: Command line: 'C:\\Data\\Master\\P1\\BilingualWD\\Github_Clone\\CM-Sydney-Young.github.io\\USBWebserver v8.6.5\\USBWebserver v8.6.5/apache2/bin/httpd_usbwv8.exe -d C:/Data/Master/P1/BilingualWD/Github_Clone/CM-Sydney-Young.github.io/USBWebserver v8.6.5/USBWebserver v8.6.5/apache2'
+[Sat Jan 02 23:59:38.721500 2021] [mpm_winnt:notice] [pid 25696:tid 652] AH00418: Parent: Created child process 11920
+[Sat Jan 02 23:59:40.037290 2021] [mpm_winnt:notice] [pid 11920:tid 696] AH00354: Child: Starting 64 worker threads.
