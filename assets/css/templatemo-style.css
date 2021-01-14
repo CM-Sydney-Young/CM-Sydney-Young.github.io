@@ -411,7 +411,7 @@ button:hover {
 }
 
 .service-item:first-child:hover a {
-    color: #a43f49
+    color: #a43f49;
 }
 
 .service-item h4 {
@@ -481,7 +481,7 @@ button:hover {
 
 /* My Work */
 
-section.my-work .section-heading {
+.section-heading {
     text-align: center;
     padding: 80px 45px 50px 45px;
 }
@@ -532,7 +532,7 @@ section.my-work .section-heading {
     color: #fff;
 }
 
-.isotope-item {
+.traveling .isotope-item {
     position: relative;
     width: 48%;
     margin: 1%;
@@ -541,12 +541,30 @@ section.my-work .section-heading {
     margin-bottom: 30px;
 }
 
+.my-work .isotope-item {
+    position: relative;
+    width: 100%;
+    margin: 1%;
+    /*border-bottom: 2px solid rgba(250,250,250,0.1);*/
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+
 .isotope-item img {
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     border-radius: 5px;
+}
+
+.isotope-item a {
+    color: #fff;
+}
+
+.isotope-item a:hover {
+    color: #BABABA;
 }
 
 .lazyload {
