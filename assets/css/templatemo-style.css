@@ -821,10 +821,17 @@ section.contact-me {
         right: 3%;
         left: 3%;
     }
-    .isotope-item {
+
+    .traveling .isotope-item {
         width: 94%;
         margin: 3%;
     }
+
+    .my-work .isotope-item {
+        width: 94%;
+        margin: 3%;
+    }
+    
     .left-image-post img {
         margin-bottom: 30px;
     }
