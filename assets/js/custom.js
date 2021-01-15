@@ -1,3 +1,7 @@
+window.onload = function(){
+  alert('Click the button on right hand side for Chinese Version ->>')
+};
+
 (function($) {
   var toggle = document.getElementById("menu-toggle");
   var menu = document.getElementById("menu");
