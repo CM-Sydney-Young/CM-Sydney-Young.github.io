@@ -151,7 +151,7 @@ body:first-child p {
 }
 
 .tm-text-accent {
-  color: #3698cc;
+  color: #3399ff;
 }
 
 .tm-section-title-2 {
@@ -285,7 +285,6 @@ body:first-child p {
 .grid figure figcaption {
   padding: 2em;
   color: #fff;
-  /*text-transform: uppercase;
   /* font-size: 1.25em; */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -316,8 +315,8 @@ body:first-child p {
 }
 
 .grid figure h2 {
-  word-spacing: -0.15em;
-  font-weight: 300;
+  word-spacing: -0.2em;
+  font-weight: 500;
 }
 
 .grid figure h2 span {
