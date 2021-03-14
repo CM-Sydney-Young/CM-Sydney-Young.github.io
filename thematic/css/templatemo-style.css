@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+a,
+a:hover {
+    text-decoration: none;
+}
 
 button .button-CN{
     display: inline-block;
